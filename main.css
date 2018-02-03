@@ -1,0 +1,32 @@
+/** estilo do botão **/
+.btn {
+  font-family: arial;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+/** botão verde **/
+.btn-verde {
+  background: green;
+  color: #fff;
+  box-shadow: 0 5px #006000;
+}
+/** Quando passar o mouse em cima do botão **/
+.btn-verde:hover {
+  background: #006000;
+  color: #fff;
+  box-shadow: 0 5px #003f00;
+}
+/** Quando clicar no botão **/
+.btn-verde:active {
+  position: relative;
+  top: 5px;
+  box-shadow: none;
+}
+ 
+h1 {
+  text-align: center;
+}
